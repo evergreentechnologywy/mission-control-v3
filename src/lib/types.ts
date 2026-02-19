@@ -9,6 +9,20 @@ export interface Task {
   due_at: Date | null;
   created_at: Date;
   updated_at: Date;
+  tags?: string[];
+  project?: string | null;
+  type?: string | null;
+  manualOverride?: string | null;
+  automation?: {
+    taskId: number;
+    matchedRuleId: string | null;
+    matchedRuleName: string | null;
+    assignedAgent: string;
+    confidence: number;
+    reason: string;
+    timestamp: string;
+    manualOverride?: string | null;
+  } | null;
 }
 
 // Content Pipeline types

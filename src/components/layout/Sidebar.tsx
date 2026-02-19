@@ -9,6 +9,7 @@ const navItems = [
   { href: '/office', icon: '🏢', label: 'Office' },
   { href: '/team', icon: '👥', label: 'Team' },
   { href: '/memory', icon: '🧠', label: 'Memory' },
+  { href: '/vault', icon: '🗂️', label: 'Vault' },
   { href: '/calendar', icon: '📅', label: 'Calendar' },
 ];
 
